@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 600;
+}
+
+.subtitle {
+  font-size: 400;
+  font-weight: lighter;
+}

@@ -1,8 +1,10 @@
+import './styles/App.css';
+import { Header } from './components/common/Header';
+
 export const App = () => {
   return (
-    <div>
-      <h1>Weather App</h1>
-      <hr />
+    <div className='app'>
+      <Header title='React Weather App' subtitle='Code Challenge' />
     </div>
   );
 };

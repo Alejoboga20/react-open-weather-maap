@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Tests should match Snapshot 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="title"
+  >
+    Test Title
+  </h1>
+  <h2
+    className="subtitle"
+  >
+    Test Subtitle
+  </h2>
+  <hr />
+</div>
+`;
