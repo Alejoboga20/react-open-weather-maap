@@ -2,7 +2,7 @@
 
 exports[`Header Tests should match Snapshot 1`] = `
 <div
-  className="container"
+  className="header_container"
 >
   <h1
     className="title"
