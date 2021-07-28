@@ -1,8 +1,8 @@
 import { Header } from './components/common/Header';
 import { CurrentWeatherDisplay } from './components/CurrentWeatherDisplay';
-import './styles/App.css';
 import { useApp } from './useApp';
 import Loader from 'react-loader-spinner';
+import './styles/App.css';
 
 export const App = () => {
   const { isLoading, temp } = useApp();
