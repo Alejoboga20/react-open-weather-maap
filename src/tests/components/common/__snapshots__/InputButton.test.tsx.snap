@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputButton Tests should Match Snapshot 1`] = `
+<button
+  className="inputButton"
+  disabled={false}
+  onClick={[MockFunction]}
+  value="test balue"
+>
+  test label
+</button>
+`;

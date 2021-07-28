@@ -1,6 +1,6 @@
 import '../../styles/components/Label.css';
 
-interface LabelProps {
+export interface LabelProps {
   labelContent: string;
 }
 

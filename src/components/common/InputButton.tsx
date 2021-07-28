@@ -1,7 +1,7 @@
 import { Coordinates } from '../../interfaces/Locations';
 import '../../styles/components/InputButton.css';
 
-interface InputButtonProps {
+export interface InputButtonProps {
   label: string;
   value: string;
   location: Coordinates;
