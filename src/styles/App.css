@@ -1,5 +1,11 @@
 .app {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #b5eaea;
+  border: solid 2px black;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  margin: 3%;
+  padding: 30px;
+  text-align: center;
 }
