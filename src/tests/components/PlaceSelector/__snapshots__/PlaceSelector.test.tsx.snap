@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Place Selector Tests should Match Snapshot 1`] = `
+<div
+  className="radio_container"
+>
+  <InputButton
+    disabled={false}
+    key="LT"
+    label="Location Test"
+    location={
+      Object {
+        "latitude": 10,
+        "longitude": 100,
+      }
+    }
+    onClick={[MockFunction]}
+    value="LT"
+  />
+</div>
+`;
