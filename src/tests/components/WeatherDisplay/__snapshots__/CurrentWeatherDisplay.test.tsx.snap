@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentWeatherDisplay Tests should match Snapshot 1`] = `
+<div
+  className="weather_container"
+>
+  <Label
+    labelContent="It is 10 degress in the city"
+  />
+</div>
+`;
