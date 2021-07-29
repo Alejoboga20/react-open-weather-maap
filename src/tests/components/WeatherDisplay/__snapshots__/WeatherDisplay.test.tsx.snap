@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDisplay Tests should Match Snapshot 1`] = `
+<div
+  className="weatherDisplay_container"
+>
+  <Label
+    labelContent="Temperature for the following days is: "
+  />
+  <WeatherItem
+    key="10"
+    temp={10}
+  />
+</div>
+`;
