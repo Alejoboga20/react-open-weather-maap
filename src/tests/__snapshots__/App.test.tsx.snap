@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Tests should Match Snapshot 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="header_container"
+  >
+    <h1
+      className="title"
+    >
+      React Weather App
+    </h1>
+    <h2
+      className="subtitle"
+    >
+      Code Challenge
+    </h2>
+    <hr />
+  </div>
+  <div
+    className="currentWeather_container"
+  >
+    <div
+      aria-busy="true"
+      className=""
+      style={Object {}}
+    >
+      <svg
+        aria-label="audio-loading"
+        height={80}
+        viewBox="0 0 38 38"
+        width={80}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient
+            id="a"
+            x1="8.042%"
+            x2="65.682%"
+            y1="0%"
+            y2="23.865%"
+          >
+            <stop
+              offset="0%"
+              stopColor="#F38BA0"
+              stopOpacity="0"
+            />
+            <stop
+              offset="63.146%"
+              stopColor="#F38BA0"
+              stopOpacity=".631"
+            />
+            <stop
+              offset="100%"
+              stopColor="#F38BA0"
+            />
+          </linearGradient>
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <g
+            transform="translate(1 1)"
+          >
+            <path
+              d="M36 18c0-9.94-8.06-18-18-18"
+              id="Oval-2"
+              stroke="#F38BA0"
+              strokeWidth="2"
+            >
+              <animateTransform
+                attributeName="transform"
+                dur="0.9s"
+                from="0 18 18"
+                repeatCount="indefinite"
+                to="360 18 18"
+                type="rotate"
+              />
+            </path>
+            <circle
+              cx="36"
+              cy="18"
+              fill="#fff"
+              r={1}
+            >
+              <animateTransform
+                attributeName="transform"
+                dur="0.9s"
+                from="0 18 18"
+                repeatCount="indefinite"
+                to="360 18 18"
+                type="rotate"
+              />
+            </circle>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div
+    className="placeSelector_container"
+  >
+    <div
+      className="label_container"
+    >
+      <label
+        className="main_content"
+      >
+        Select the city to checkout its weather
+      </label>
+    </div>
+    <div
+      className="radio_container"
+    >
+      <button
+        className="inputButton"
+        disabled={false}
+        onClick={[Function]}
+        value="BA"
+      >
+        Buenos Aires
+      </button>
+      <button
+        className="inputButton"
+        disabled={false}
+        onClick={[Function]}
+        value="ML"
+      >
+        Manila
+      </button>
+      <button
+        className="inputButton"
+        disabled={false}
+        onClick={[Function]}
+        value="MD"
+      >
+        Madrid
+      </button>
+      <button
+        className="inputButton"
+        disabled={false}
+        onClick={[Function]}
+        value="CN"
+      >
+        China
+      </button>
+      <button
+        className="inputButton"
+        disabled={false}
+        onClick={[Function]}
+        value="AU"
+      >
+        Auckland
+      </button>
+    </div>
+  </div>
+  <div
+    className="weatherDisplayer_container"
+  >
+    <div
+      className="weatherDisplay_container"
+    />
+  </div>
+</div>
+`;

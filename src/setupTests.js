@@ -7,5 +7,11 @@ import Enzyme from 'enzyme';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import { createSerializer } from 'enzyme-to-json';
 
+const mockGeolocation = {
+  getCurrentPosition: jest.fn(),
+};
+
+global.navigator.geolocation = mockGeolocation;
+
 Enzyme.configure({ adapter: new Adapter() });
 expect.addSnapshotSerializer(createSerializer({ mode: 'deep' }));

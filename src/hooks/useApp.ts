@@ -4,7 +4,7 @@ import { Locations } from '../interfaces/Locations';
 import { WeatherResponse, Daily } from '../interfaces/WeatherResponse';
 import { inputButtons } from '../fixtures/Locations';
 
-interface useAppStore {
+export interface useAppStore {
   isLoading: boolean;
   temp?: number;
   inputButtons: Locations[];
@@ -25,21 +25,25 @@ export const useApp = (): useAppStore => {
   const handleOnClick = async (event: any) => {
     setBlockButtons(true);
 
-    const location = inputButtons.filter(
-      (button) => button.value === event.target.value
-    );
+    try {
+      const location = inputButtons.filter(
+        (button) => button.value === event.target.value
+      );
 
-    const { latitude, longitude } = location[0].location;
-    const response = await fetchData(latitude, longitude);
-    const body: WeatherResponse = await response.json();
+      const { latitude, longitude } = location[0].location;
+      const response = await fetchData(latitude, longitude);
+      const body: WeatherResponse = await response.json();
 
-    const { daily } = body;
+      const { daily } = body;
 
-    setDailyTemp(daily);
-    setBlockButtons(false);
+      setDailyTemp(daily);
+      setBlockButtons(false);
+    } catch (error) {
+      throw new Error(error);
+    }
   };
 
-  const loadData = () => {
+  useEffect(() => {
     setIsLoading(true);
 
     try {
@@ -57,10 +61,6 @@ export const useApp = (): useAppStore => {
     } catch (error) {
       throw new Error(error);
     }
-  };
-
-  useEffect(() => {
-    loadData();
   }, []);
 
   return {
