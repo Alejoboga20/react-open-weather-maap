@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instalaciones Requeridad
+## Instalaciones Requeridas
 
 1. Node JS, GIT, Yarn o NPM. Yarn res recomendada.
 
